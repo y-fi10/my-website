@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url('photo2.jpg'); /* غيّر الاسم حسب صورتك */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  font-family: sans-serif;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.content {
+  background-color: rgba(119, 117, 117, 0.5); /* شفافية عشان النص يوضح */
+  padding: 30px 50px;
+  border-radius: 15px;
+}
